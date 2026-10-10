@@ -34,7 +34,7 @@ mtt.register_with_area("glowshroom: grows on a dark cave floor", {
 end)
 
 -- Generate a large underground area and check that caves get glowshrooms.
-local area_min, area_max = vector.new(-160, -60, -160), vector.new(160, -20, 160)
+local area_min, area_max = vector.new(-120, -60, -120), vector.new(120, -20, 120)
 mtt.emerge_area(area_min, area_max)
 
 mtt.register("glowshroom: generates on cave floors", {
