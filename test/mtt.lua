@@ -42,8 +42,10 @@ mtt.register("glowshroom: generates on cave floors", {
 	func = function(callback)
 		local found = core.find_nodes_in_area(area_min, area_max, { "glowshroom:glowshroom" })
 		core.log("action", "[glowshroom] generated " .. #found .. " glowshrooms in the test area")
-		assert(#found > 0, "no glowshrooms generated in " .. core.pos_to_string(area_min) .. "–"
-			.. core.pos_to_string(area_max))
+		assert(
+			#found > 0,
+			"no glowshrooms generated in " .. core.pos_to_string(area_min) .. "–" .. core.pos_to_string(area_max)
+		)
 		callback()
 	end,
 })

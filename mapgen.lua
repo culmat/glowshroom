@@ -2,9 +2,16 @@
 -- engine's decorations, so mushrooms are placed in an on_generated pass instead.
 
 local floor_names = {
-	"default:stone", "default:desert_stone", "default:sandstone",
-	"mcl_core:stone", "mcl_deepslate:deepslate", "mcl_core:granite", "mcl_core:diorite", "mcl_core:andesite",
-	"mcl_core:tuff", "mcl_deepslate:tuff",
+	"default:stone",
+	"default:desert_stone",
+	"default:sandstone",
+	"mcl_core:stone",
+	"mcl_deepslate:deepslate",
+	"mcl_core:granite",
+	"mcl_core:diorite",
+	"mcl_core:andesite",
+	"mcl_core:tuff",
+	"mcl_deepslate:tuff",
 }
 
 local floors = {}
@@ -73,8 +80,11 @@ function glowshroom.try_spread(pos, rng)
 	if not light or light > 7 then
 		return nil
 	end
-	local nearby = core.find_nodes_in_area(vector.offset(target, -3, -2, -3), vector.offset(target, 3, 2, 3),
-		{ "group:glowshroom" })
+	local nearby = core.find_nodes_in_area(
+		vector.offset(target, -3, -2, -3),
+		vector.offset(target, 3, 2, 3),
+		{ "group:glowshroom" }
+	)
 	if #nearby >= 6 then
 		return nil
 	end
