@@ -5,3 +5,4 @@
 /.luacheckrc export-ignore
 /.stylua.toml export-ignore
 /.luarc.json export-ignore
+/tools export-ignore
