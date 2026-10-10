@@ -1,0 +1,8 @@
+# Glowshrooms only generate and spread at or below this height.
+glowshroom_max_y (Maximum height) int -16 -31000 31000
+
+# Chance per suitable cave-floor node when a map chunk is generated.
+glowshroom_density (Generation density) float 0.004 0 1
+
+# Let glowshrooms slowly spread to nearby dark cave floors.
+glowshroom_spread (Spreading) bool true

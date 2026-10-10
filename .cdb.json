@@ -1,0 +1,16 @@
+{
+	"type": "MOD",
+	"title": "Glowshrooms",
+	"short_description": "Bioluminescent mushrooms that grow in dark caves of any game: Minetest Game, Mineclonia and VoxeLibre.",
+	"license": "MIT",
+	"media_license": "CC-BY-SA-4.0",
+	"ai_disclosure": "GENERATED",
+	"dev_state": "BETA",
+	"repo": "https://github.com/culmat/glowshroom",
+	"issue_tracker": "https://github.com/culmat/glowshroom/issues",
+	"tags": [
+		"plants_and_farming",
+		"environment",
+		"decorative"
+	]
+}

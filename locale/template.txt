@@ -1,0 +1,5 @@
+# textdomain: glowshroom
+Glowshroom=
+A bioluminescent mushroom that grows on cave floors and slowly spreads in darkness.=
+Glowshroom Lamp=
+A glass block filled with glowshrooms. It gives off a soft, cold light.=
