@@ -2,6 +2,8 @@
 
 Bioluminescent mushrooms that grow in dark caves of any game: Minetest Game, Mineclonia and VoxeLibre.
 
+![Glowshrooms and lamps in a cave (Minetest Game)](screenshots/minetest_game.png)
+
 - **Glowshroom:** a small, softly glowing mushroom (light 6) found on cave floors below y = −16. In darkness it slowly spreads to nearby cave floors, up to 6 per small area.
 - **Glowshroom Lamp:** craft four glowshrooms around a glass block for a bright (light 13), cold-light block.
 - Glowshrooms also burn as a little fuel.
