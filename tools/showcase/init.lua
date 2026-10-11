@@ -66,5 +66,8 @@ core.register_on_joinplayer(function(player)
 			chat = false,
 		})
 		core.set_timeofday(0)
+		if avanti_camera then -- avanti screenshot: the scene is ready for the shot list
+			avanti_camera.scene_ready()
+		end
 	end)
 end)

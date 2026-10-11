@@ -1,0 +1,44 @@
+{
+  "shots": [
+    {
+      "name": "cave",
+      "pos": [
+        0,
+        -27.88,
+        -5
+      ],
+      "yaw": 0,
+      "pitch": 18.3,
+      "settle": 2
+    },
+    {
+      "name": "lamp_closeup",
+      "pos": [
+        1.2,
+        -28.9,
+        1.6
+      ],
+      "look_at": [
+        3,
+        -30,
+        4
+      ],
+      "settle": 2
+    },
+    {
+      "name": "overview",
+      "pos": [
+        -6,
+        -26.6,
+        -6
+      ],
+      "look_at": [
+        0.5,
+        -30.5,
+        3
+      ],
+      "fov": 80,
+      "settle": 2
+    }
+  ]
+}
