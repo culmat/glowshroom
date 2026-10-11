@@ -23,3 +23,8 @@ read_globals = {
 
 	-- Globals of other declared dependencies. List them with: ldg globals .
 }
+
+-- Screenshot helpers (not part of the mod): avanti screenshot's camera driver is optional.
+files["tools/"] = {
+	read_globals = { "avanti_camera" },
+}
